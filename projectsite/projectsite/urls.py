@@ -32,5 +32,5 @@ urlpatterns = [
     path('college_list', CollegeList.as_view(), name='college-list'),
     path('program_list', ProgramList.as_view(), name='program-list'),
     re_path(r'^login/$', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
-    re_path(r'^logout/$', auth_views.LogoutView.as_view(), name='logout'),
+    re_path(r'^logout/$', auth_views.LogoutView.as_view(), name='login'),
 ]
