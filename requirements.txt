@@ -1,5 +1,6 @@
 asgiref==3.8.1
 Django==5.1.2
+django-widget-tweaks==1.5.0
 Faker==30.8.1
 python-dateutil==2.9.0.post0
 six==1.16.0
