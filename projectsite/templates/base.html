@@ -180,28 +180,27 @@
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="forms.html">
+							<a href="{% url 'orgmember-list' %}">
 								<i class="la la-keyboard-o"></i>
 								<p>Org. Member</p>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="tables.html">
+							<a href="{% url 'student-list' %}">
 								<i class="la la-th"></i>
 								<p>Student</p>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="notifications.html">
+							<a href="{% url 'college-list' %}">
 								<i class="la la-bell"></i>
 								<p>College</p>
 							</a>
 						</li>
-						<li class="nav-item active">
-							<a href="typography.html">
+						<li class="nav-item">
+							<a href="{% url 'program-list' %}">
 								<i class="la la-font"></i>
-								<p>Typography</p>
-								<span class="badge badge-danger">25</span>
+								<p>Program</p>
 							</a>
 						</li>
 					</ul>
