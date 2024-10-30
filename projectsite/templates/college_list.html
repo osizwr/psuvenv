@@ -39,6 +39,7 @@
                 <thead>
                   <tr>
                     <th scope="col">College Name</th>
+                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 
@@ -46,7 +47,6 @@
                   {% for object in object_list %}
                     <tr>
                       <td>{{ object.college_name }}</td>
-                      <th scope="col">Action</th>
                       <td>
                         <a href="college_list/{{ object.id }}" class="btn btn-primary btn-rounded">Edit</a>
                         &nbsp;&nbsp;&nbsp;
