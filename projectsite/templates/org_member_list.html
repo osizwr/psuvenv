@@ -30,7 +30,7 @@
                 
                 <div class="col-md-6">
                     <div class="pull-right">
-                    <a href="{% url 'organization-add' %}" class="btn btn-success btn-rounded">Add Member</a>
+                    <a href="{% url 'orgmember-add' %}" class="btn btn-success btn-rounded">Add Member</a>
                     </div>
                 </div>
                 </div>
@@ -51,9 +51,9 @@
                       <td>{{ object.organization }}</td>
                       <td>{{ object.date_joined }}</td>
                       <td>
-                        <a href="organization_list/{{ object.id }}" class="btn btn-primary btn-rounded">Edit</a>
+                        <a href="orgmember_list/{{ object.id }}" class="btn btn-primary btn-rounded">Edit</a>
                         &nbsp;&nbsp;&nbsp;
-                        <a href="organization_list/{{ object.id }}/delete" class="btn btn-danger btn-rounded">Delete</a>
+                        <a href="orgmember_list/{{ object.id }}/delete" class="btn btn-danger btn-rounded">Delete</a>
                     </td>
                     </tr>
                     {% empty %}
