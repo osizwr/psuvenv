@@ -15,8 +15,6 @@ class OrgMemberForm(ModelForm):
             'date_joined': forms.DateInput(attrs={'type': 'date'})
         }
 
-
-
 class CollegeForm(ModelForm):
     class Meta:
         model = College
